@@ -70,3 +70,21 @@ body {
 .card.flip {
   transform: rotateY(180deg);
 }
+
+@media (max-width: 600px) {
+  /* .side {
+    display: none;
+  } */
+
+  body {
+    flex-direction: column;
+  }
+  .memory-game {
+    height: 480px;
+    width: 380px;
+    margin: 0.5px;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+  }
+}
