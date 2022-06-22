@@ -1,7 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.side a {
+  font-size: 25px;
+  font-family: "amatic sc", sans-serif;
+  color: rgb(223, 223, 217);
 }
 
 body {
