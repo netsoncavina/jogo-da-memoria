@@ -50,6 +50,8 @@ function showAlert(condition) {
     showConfirmButton: false,
     timer: 4000,
     timerProgressBar: true,
+    allowOutsideClick: false,
+    allowEscapeKey: false,
     didOpen: (alert) => {
       alert.addEventListener("mouseenter", Swal.stopTimer);
       alert.addEventListener("mouseleave", Swal.resumeTimer);
